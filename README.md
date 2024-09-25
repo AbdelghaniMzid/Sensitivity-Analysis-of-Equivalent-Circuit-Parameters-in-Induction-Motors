@@ -83,6 +83,18 @@ The table below summarizes the sensitivity of the induction motor parameters for
 | **Rotor Resistance (R'2)** | Improves startup torque, reduces rated torque | Similar trend, but less pronounced |
 | **Main Reactance (Xh1)**   | Strong influence on rated torque and short-circuit behavior | Noticeable, but less significant |
 | **Leakage Reactances (Xσ1, Xσ2)** | Large impact on torque reduction | Smaller impact, especially under transient conditions |
+
+### 4. **Visual Documentation**
+
+| Torque-Speed Characteristics           | Short-Circuit Current Response       |
+|-----------------------------------------|--------------------------------------|
+| ![Torque-Speed Curve](Drehmoment.jpg)   | ![Short Circuit Current](Stoßstrom.jpg) |
+| *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.* | *Figure 2: Current response during a short-circuit event, showing variations with different parameters.* |
+
+| Current Phasor Representation           | Sensitivity Map                      |
+|-----------------------------------------|--------------------------------------|
+| ![Current Phasor](Stromsrtskurve.jpg)   | ![Sensitivity Map](Widerstand_Einfluss.jpg) |
+| *Figure 3: Phasor diagram showing real and imaginary parts of current under different R1 conditions.* | *Figure 4: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.* |
   
 ### 4. **Visual Documentation**
 
