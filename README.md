@@ -76,29 +76,34 @@ The table below summarizes the sensitivity of the induction motor parameters for
   
 ### 4. **Visual Documentation**
 
-#### A. **Steady-State Analysis**
+#### Torque-Speed Characteristics
 
-- **Torque-Speed Characteristics**:
-  
-  ![Torque-Speed Curve](Drehmoment.jpg)
-  *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.*
+The analysis of torque-speed characteristics shows that an increase in the stator resistance (R1) leads to a significant decrease in both starting torque and breakdown torque, particularly in Motor 1.
 
-- **Sensitivity Map**:
-  
-  ![Sensitivity Map](Widerstand_Einfluss.jpg)
-  *Figure 2: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.*
+![Torque-Speed Curve](Drehmoment.jpg)
+*Figure 1: Torque-speed curve for Motor 1 with varying R1 values.*
 
-#### B. **Transient Analysis (Short-Circuit)**
+#### Sensitivity of Motor Parameters
 
-- **Short-Circuit Current Response**:
-  
-  ![Short Circuit Current](Stoßstrom.jpg)
-  *Figure 3: Current response during a short-circuit event, showing variations with different parameters.*
+The heatmap below illustrates how variations in rotor resistance (R'2) and main reactance (Xh1) affect motor current. The sensitivity is more pronounced in Motor 1.
 
-- **Current Phasor Representation**:
-  
-  ![Current Phasor](Stromsrtskurve.jpg)
-  *Figure 4: Phasor diagram showing real and imaginary parts of current under different R1 conditions.*
+![Sensitivity Map](Widerstand_Einfluss.jpg)
+*Figure 2: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.*
+
+#### Short-Circuit Current Response
+
+During short-circuit events, the current response is heavily influenced by variations in leakage reactance and stator resistance. This response is critical for both motors under high-stress conditions.
+
+![Short Circuit Current](Stoßstrom.jpg)
+*Figure 3: Current response during a short-circuit event, showing variations with different parameters.*
+
+#### Current Phasor Representation
+
+The phasor diagram below illustrates the real and imaginary components of the motor current under different stator resistance (R1) conditions.
+
+![Current Phasor](Stromsrtskurve.jpg)
+*Figure 4: Phasor diagram showing real and imaginary parts of current under different R1 conditions.*
+
 
 
 ## Conclusion:
