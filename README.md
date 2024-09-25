@@ -51,7 +51,7 @@ The sensitivity analysis yields several important insights:
 *Figure 2: Current response during a short circuit event, showing variations with different parameters.*
 
 ### Current Phasor Representation:
-![Stromortskurve](stromsrtskurve.jpg)
+![Stromortskurve](Stromsrtskurve.jpg)
 *Figure 3: Phasor diagram showing real and imaginary parts of current under different R1 conditions.*
 
 ### Sensitivity Map:
