@@ -13,12 +13,11 @@ This project conducts a comprehensive sensitivity analysis of various equivalent
   - **Sensitivity Analysis:** 
     - **Screening (One-at-a-Time)**: Investigating the impact of individual parameters.
     - **Local Sensitivity Methods**: Evaluating sensitivity across multiple parameters.
-  ### Key Parameters
-
-- ![R1](https://img.shields.io/badge/R1-Stator%20Resistance-blue?style=flat-square) **Stator Resistance (R1)**: Influences power losses and heat generation.
-- ![R'2](https://img.shields.io/badge/R'2-Rotor%20Resistance-green?style=flat-square) **Rotor Resistance (R'2)**: Important for starting torque and overall motor efficiency.
-- ![Xh1](https://img.shields.io/badge/Xh1-Main%20Reactance-yellow?style=flat-square) **Main Reactance (Xh1)**: Governs the magnetic flux in the motor.
-- ![Xσ1, Xσ2](https://img.shields.io/badge/Xσ1%2FXσ2-Leakage%20Reactance-orange?style=flat-square) **Leakage Reactances (Xσ1, Xσ2)**: Affects short-circuit behavior.
+- **Parameter Variations:**
+    - Stator Resistance (R1)
+    - Rotor Resistance (R’2)
+    - Stator and Rotor Leakage Reactances (Xσ1, Xσ2)
+    - Main Reactance (Xh1)
 
 
 ## Tools and Software
