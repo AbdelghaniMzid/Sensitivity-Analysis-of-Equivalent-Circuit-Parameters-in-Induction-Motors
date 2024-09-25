@@ -76,15 +76,29 @@ The table below summarizes the sensitivity of the induction motor parameters for
   
 ### 4. **Visual Documentation**
 
-| Torque-Speed Characteristics           | Short-Circuit Current Response       |
-|-----------------------------------------|--------------------------------------|
-| ![Torque-Speed Curve](Drehmoment.jpg)   | ![Short Circuit Current](Stoßstrom.jpg) |
-| *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.* | *Figure 2: Current response during a short-circuit event, showing variations with different parameters.* |
+#### A. **Steady-State Analysis**
 
-| Current Phasor Representation           | Sensitivity Map                      |
-|-----------------------------------------|--------------------------------------|
-| ![Current Phasor](Stromsrtskurve.jpg)   | ![Sensitivity Map](Widerstand_Einfluss.jpg) |
-| *Figure 3: Phasor diagram showing real and imaginary parts of current under different R1 conditions.* | *Figure 4: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.* |
+- **Torque-Speed Characteristics**:
+  
+  ![Torque-Speed Curve](Drehmoment.jpg)
+  *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.*
+
+- **Sensitivity Map**:
+  
+  ![Sensitivity Map](Widerstand_Einfluss.jpg)
+  *Figure 2: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.*
+
+#### B. **Transient Analysis (Short-Circuit)**
+
+- **Short-Circuit Current Response**:
+  
+  ![Short Circuit Current](Stoßstrom.jpg)
+  *Figure 3: Current response during a short-circuit event, showing variations with different parameters.*
+
+- **Current Phasor Representation**:
+  
+  ![Current Phasor](Stromsrtskurve.jpg)
+  *Figure 4: Phasor diagram showing real and imaginary parts of current under different R1 conditions.*
 
 
 ## Conclusion:
