@@ -88,7 +88,7 @@ The table below summarizes the sensitivity of the induction motor parameters for
 
 | Torque-Speed Characteristics           | Short-Circuit Current Response       |
 |-----------------------------------------|--------------------------------------|
-| ![Torque-Speed Curve](Drehmoment.jpg)   | ![Short Circuit Current](Stoßstrom.jpg) |
+| ![Torque-Speed Curve](Drehmoment1.jpg)   | ![Short Circuit Current](Stoßstrom.jpg) |
 | *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.* | *Figure 2: Current response during a short-circuit event, showing variations with different parameters.* |
 
 | Current Phasor Representation           | Sensitivity Map                      |
