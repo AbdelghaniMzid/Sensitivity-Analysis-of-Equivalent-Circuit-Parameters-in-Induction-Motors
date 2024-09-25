@@ -74,23 +74,18 @@ The table below summarizes the sensitivity of the induction motor parameters for
 | **Main Reactance (Xh1)**   | Strong influence on rated torque and short-circuit behavior | Noticeable, but less significant |
 | **Leakage Reactances (Xσ1, Xσ2)** | Large impact on torque reduction | Smaller impact, especially under transient conditions |
   
-## Visual Documentation:
+### 4. **Visual Documentation**
 
-### Torque-Speed Curves:
-![Torque-Speed Curve](Drehmoment.jpg)
-*Figure 1: Torque-speed curve for Motor 1 with varying R1 values.*
+| Torque-Speed Characteristics           | Short-Circuit Current Response       |
+|-----------------------------------------|--------------------------------------|
+| ![Torque-Speed Curve](Drehmoment.jpg)   | ![Short Circuit Current](Stoßstrom.jpg) |
+| *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.* | *Figure 2: Current response during a short-circuit event, showing variations with different parameters.* |
 
-### Short-Circuit Current Response:
-![Short Circuit Current](Stoßstrom.jpg)
-*Figure 2: Current response during a short circuit event, showing variations with different parameters.*
+| Current Phasor Representation           | Sensitivity Map                      |
+|-----------------------------------------|--------------------------------------|
+| ![Current Phasor](Stromsrtskurve.jpg)   | ![Sensitivity Map](Widerstand_Einfluss.jpg) |
+| *Figure 3: Phasor diagram showing real and imaginary parts of current under different R1 conditions.* | *Figure 4: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.* |
 
-### Current Phasor Representation:
-![Stromortskurve](Stromsrtskurve.jpg)
-*Figure 3: Phasor diagram showing real and imaginary parts of current under different R1 conditions.*
-
-### Sensitivity Map:
-![Widerstand Einfluss](Widerstand_Einfluss.jpg)
-*Figure 4: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.*
 
 ## Conclusion:
 This sensitivity analysis provides valuable insights into how parameter variations affect the performance of induction motors. The results can be used to optimize motor design and predict behavior under fault conditions, enhancing overall motor efficiency and reliability. The findings highlight the importance of rotor resistance and leakage reactances in both steady-state and transient operations.
