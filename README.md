@@ -43,19 +43,20 @@ The sensitivity analysis yields several important insights:
 ## Visual Documentation:
 
 ### Torque-Speed Curves:
-![Torque-Speed Curve](Drehmoment.jpg)
+![Torque-Speed Curve](drehmoment.jpg)
 *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.*
 
 ### Short-Circuit Current Response:
-![Short Circuit Current](Stoßstrom.jpg)
+![Short Circuit Current](stoßstrom.jpg)
 *Figure 2: Current response during a short circuit event, showing variations with different parameters.*
 
 ### Current Phasor Representation:
-![Stromortskurve](Stromsrtskurve.jpg)
+![Stromortskurve](stromortskurve.jpg)
 *Figure 3: Phasor diagram showing real and imaginary parts of current under different R1 conditions.*
 
 ### Sensitivity Map:
-![Widerstand Einfluss](Widerstand_Einfluss.jpg)
+![Widerstand Einfluss](widerstand-einfluss.jpg)
+*Figure 4: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.*
 
 ## Conclusion:
 This sensitivity analysis provides valuable insights into how parameter variations affect the performance of induction motors. The results can be used to optimize motor design and predict behavior under fault conditions, enhancing overall motor efficiency and reliability. The findings highlight the importance of rotor resistance and leakage reactances in both steady-state and transient operations.
