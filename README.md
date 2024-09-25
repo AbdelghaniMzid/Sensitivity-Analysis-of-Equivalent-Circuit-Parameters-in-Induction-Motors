@@ -43,19 +43,19 @@ The sensitivity analysis yields several important insights:
 ## Visual Documentation:
 
 ### Torque-Speed Curves:
-![Torque-Speed Curve](figures/drehmoment.jpg)
+![Torque-Speed Curve](drehmoment.jpg)
 *Figure 1: Torque-speed curve for Motor 1 with varying R1 values.*
 
 ### Short-Circuit Current Response:
-![Short Circuit Current](figures/stoßstrom.jpg)
+![Short Circuit Current](stoßstrom.jpg)
 *Figure 2: Current response during a short circuit event, showing variations with different parameters.*
 
 ### Current Phasor Representation:
-![Stromortskurve](figures/stromortskurve.jpg)
+![Stromortskurve](stromortskurve.jpg)
 *Figure 3: Phasor diagram showing real and imaginary parts of current under different R1 conditions.*
 
 ### Sensitivity Map:
-![Widerstand Einfluss](figures/widerstand_einfluss.jpg)
+![Widerstand Einfluss](widerstand_einfluss.jpg)
 *Figure 4: Heatmap showing the sensitivity of rotor resistance (R'2) and main reactance (Xh1) on motor current.*
 
 ## Conclusion:
