@@ -1,4 +1,4 @@
-# Sensitivity Analysis of Equivalent Circuit Parameters in Induction Motors
+# ⚙️🔌 Sensitivity Analysis of Equivalent Circuit Parameters in Induction Motors
 
 ## Project Overview
 This project conducts a comprehensive sensitivity analysis of various equivalent circuit parameters in squirrel-cage induction motors. The study investigates how parameter variations, such as changes in resistance and reactance, impact the performance of the motors. The goal is to evaluate both the transient behavior, such as responses to short-circuit events, and steady-state conditions, particularly focusing on torque-speed characteristics.
