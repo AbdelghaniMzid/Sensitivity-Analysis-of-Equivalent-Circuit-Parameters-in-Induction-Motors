@@ -19,11 +19,20 @@ This project conducts a comprehensive sensitivity analysis of various equivalent
     - Stator and Rotor Leakage Reactances (Xσ1, Xσ2)
     - Main Reactance (Xh1)
 
-## Tools and Software:
-- **MATLAB:** Used for implementing the sensitivity analysis and steady-state simulations.
-- **Simulink:** Employed to simulate dynamic behaviors such as short circuits and transient responses.
-- **CSV Output:** Simulation results are stored in CSV files for further analysis and visualization.
-- **Data Visualization Tools:** MATLAB's plotting capabilities are used to create detailed graphs of motor performance under different conditions.
+## Tools and Software
+
+- ![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange?style=flat-square&logo=mathworks&logoColor=white)
+  **MATLAB:** Used for implementing the sensitivity analysis and steady-state simulations.
+
+- ![Simulink](https://img.shields.io/badge/Simulink-R2023a-blue?style=flat-square&logo=mathworks&logoColor=white)
+  **Simulink:** Employed to simulate dynamic behaviors such as short circuits and transient responses.
+
+- ![CSV](https://img.shields.io/badge/CSV-Data%20Output-success?style=flat-square&logo=csv)
+  **CSV Output:** Simulation results are stored in CSV files for further analysis and visualization.
+
+- ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-MATLAB%20Plots-yellow?style=flat-square&logo=plotly&logoColor=white)
+  **Data Visualization Tools:** MATLAB's plotting capabilities are used to create detailed graphs of motor performance under different conditions.
+
 
 ## Setup Instructions:
 1. **Clone the repository:** Download the project from the GitHub repository.
